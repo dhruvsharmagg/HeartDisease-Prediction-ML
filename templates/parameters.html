@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HDP</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/parameters.css') }}">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+</head>
+<body>
+
+<div class="menu">
+			
+		<div class="leftmenu">
+			<h4> HEART DISEASE PREDICTION </h4>
+		</div>
+
+		<div class="rightmenu">
+			<ul>
+				<li id="fisrtlist"> <a href = "/home"> HOME </a> </li>       
+				<li> <a href="/"> Predict </a> </li>
+				<li><a href="/parameters"> Parameters </a> </li>
+				<li> <a href="/idea"> Our Idea </a> </li>
+				<li><a href="/about"> About </a> </li>
+
+			</ul>
+		</div>
+
+	</div>
+
+<div class="main">
+	<div class="container">
+		<h2>IDEAL PARAMETER RANGES</h2>
+
+		<table>
+		  <tr>
+		    <th>PARAMETERS</th>
+		    <th>RANGE</th>
+		  </tr>
+		  <tr>
+		    <td>CHOLESTROL</td>
+		    <td>100-200 normal<br>
+				200-230 borderline high<br>
+				230+ very high</td>
+		  </tr>
+		  <tr>
+		    <td>SYSTOLIC BP</td>
+		    <td>90-120 normal<br>
+				120+ high</td>
+		  </tr>
+		  <tr>
+		    <td>DIASTOLIC BP</td>
+		    <td>60-80 normal<br>
+				80+ high</td>
+
+		  </tr>
+		  <tr>
+		    <td>HEART RATE</td>
+		    <td>60-100 normal<br>
+				100+ high</td>
+
+		  </tr>
+		  <tr>
+		    <td>GLUCOSE</td>
+		    <td>90-140 normal<br>
+				140+ high</td>
+
+		  </tr>
+		  <tr>
+		    <td>BMI</td>
+		    <td>below 18.5 – you're in the underweight range <br>
+				between 18.5 and 24.9 – you're in the healthy weight range <br>
+				between 25 and 29.9 – you're in the overweight range <br>
+				between 30 and 39.9 – you're in the obese range</td>
+
+		  </tr>
+		</table>
+	</div>
+
+</body>
+</html>

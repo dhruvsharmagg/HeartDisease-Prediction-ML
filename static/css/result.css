@@ -1,0 +1,50 @@
+body{
+  background-color: #303030;
+  justify-content: center;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.main{
+	padding: 50px;
+
+}
+
+.container{
+	padding: 50px;
+	border: 5px solid red;
+  	border-radius: 10px;
+  	background-color: black;
+  	text-align: center;
+}
+
+.container h1{
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size:35px;
+
+}
+
+.container h2{
+	color: white;
+	padding: 20px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+
+}
+
+.main h3 a {
+	color: white;
+	padding: 10px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+
+}

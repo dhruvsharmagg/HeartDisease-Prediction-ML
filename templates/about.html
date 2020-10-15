@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HDP</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/about.css') }}">
+		 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+		  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+</head>
+<body>
+<div class="menu">
+			
+		<div class="leftmenu">
+			<h4> HEART DISEASE PREDICTION </h4>
+		</div>
+
+		<div class="rightmenu">
+			<ul>
+				<li id="fisrtlist"> <a href = "/home"> HOME </a> </li>       
+				<li> <a href="/"> Predict </a> </li>
+				<li><a href="/parameters"> Parameters </a> </li>
+				<li> <a href="/idea"> Our Idea </a> </li>
+				<li><a href="/about"> About </a> </li>
+			</ul>
+		</div>
+
+</div>
+
+<div class="main">
+	<div class="about">
+		<h2 class="heading">ABOUT THIS PROJECT</h2>
+		<p class="content">
+			Working of this system is mentioned in the steps below: <br>
+
+			Working: <br>
+			Step 1:<br> 
+			Patient uses a Web-API to provide all the required parameters to the model. <br>
+
+			Step 2: <br>
+			All the entered values of the parameters are forwarded to the model for prediction <br>
+			Step 3: The trained model will be used to predict the probability of heart disease considering the input data provided by the individual.<br>
+
+			Step 4: output will be displayed to the user.<br>
+
+			About the Machine Learning model:<br>
+			Model is trained on a dataset that contains 4240 tuples and 16 features on which we performed dimensionality reduction out of which we selected 11 features that are (Gender, age,current smoker, cigarettes per day, total cholesterol, systolic bp, diastolic bp, BMI, Heart rate,glucose levels) , which are relevant to the system’s requirement.
+		</p>
+	</div>
+</div>	
+
+</body>
+</html>
